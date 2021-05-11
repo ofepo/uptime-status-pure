@@ -27,5 +27,15 @@ window.Config = {
   // 不过时间不要设置太长，容易卡，接口请求也容易失败
   CountDays: 60,
 
-
+  // 导航栏菜单
+   Navi: [
+    {
+      text: 'Homepage',
+      url: 'https://google.com/'
+    },
+    {
+      text: 'GitHub',
+      url: 'https://github.com/'
+    }
+  ]
 };
